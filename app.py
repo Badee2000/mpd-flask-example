@@ -16,7 +16,7 @@ def create_app() -> Flask:
 
     @app.get("/")
     def index():
-        return jsonify(app="flask-example", status="ok")
+        return jsonify(app="flask-example", status="ok", version="v2")
 
     @app.get("/health")
     def health():
