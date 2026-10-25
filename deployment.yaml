@@ -1,0 +1,3 @@
+platform: render
+app_name: mpd-flask-example
+start_command: gunicorn wsgi:app
